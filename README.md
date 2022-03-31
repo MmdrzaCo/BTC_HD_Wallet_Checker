@@ -1,4 +1,22 @@
 # Bitcoin HDWallet Generator (Privatekey + address)
+----
+Bitcoin started with a very rudimentary address type. In order to get transactions smaller in size and therefor cheaper, new address types got developed that reduce the amount of information necessary to spend a received transaction. Additionally, these addresses types added important new functionalities to bitcoin.
+
+
+***How to identify a bitcoin address?***
+
+
+You can identify the type of a bitcoin address by looking at the first letters of it. If it starts with "1", it's a legacy address. If it starts with "3", it's a P2SH address. If it starts with "bc1q", it's a native segwit and if the first 4 letters are "bc1p", it's a taproot address.
+
+***Where can I get a bitcoin address?***
+
+You can generate a bitcoin address by clicking on "Receive" within your bitcoin wallet. You can create as many different bitcoin addresses as you want. For privacy reasons it is advised to not re-use an address.
+
+***How do bitcoin addresses work?***
+
+Bitcoin addresses contain the information about who can access the bitcoin sent to this address. By for example proving that you control the private key to a bitcoin address, you are allowed to send a transaction from it. Without proving ownership of an address, you cannot send a valid transaction.
+
+
 Bitcoin wallet creat and check private key and address , with total transaction (use HDWallet)
 ----
 
