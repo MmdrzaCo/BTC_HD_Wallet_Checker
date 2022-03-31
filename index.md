@@ -1,37 +1,88 @@
-## Welcome to GitHub Pages
+# Bitcoin HDWallet Generator (Privatekey + address)
+Bitcoin wallet creat and check private key and address , with total transaction (use HDWallet)
+----
 
-You can use the [editor on GitHub](https://github.com/MmdrzaCo/BTC_HD_Wallet_Checker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Bitcoin HDWallet Generator (Privatekey + address)](https://raw.githubusercontent.com/Pymmdrza/BTC_HD_Wallet_Checker/main/btchdall.jpg)
+----
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### genereted bitcoin wallet private key and address
 
-### Markdown
+#### genereted from random private key (hexer)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### check wallet details and all transaction without apikey 
 
-```markdown
-Syntax highlighted code block
+#### save wallet > 0 on text file
 
-# Header 1
-## Header 2
-### Header 3
+#### easy install windows and linux (00INSTALL.cmd and 00INSTALL.sh)
+----
+for install package on windows `./00INSTALL.cmd` or this:
 
-- Bulleted
-- List
+```
+pip install colorama
+pip install hdwallet
+pip install lxml
+pip install requests
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+for install package on Linux `./00INSTALL.sh` or this:
 
-### Jekyll Themes
+```
+pip install colorama
+pip install hdwallet
+pip install lxml
+pip install requests
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MmdrzaCo/BTC_HD_Wallet_Checker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+can use easy running with loop:
+use `btcHDall.cmd (btcHDall.py)` For Genereted and  Checked 4 type Address All in One (p2pkh + p2sh + p2wpkh + p2wsh)
+```
+./btcHDall.cmd
+./p2pkh.cmd
+./p2sh.cmd
+./p2wpkh.cmd
+./p2wsh.cmd
+```
+Linux:
 
-### Support or Contact
+```
+sh btcHDall.sh
+sh p2pkh.sh
+sh p2sh.sh
+sh p2wpkh.sh
+sh p2wsh.sh
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```
+----
+
+Genereted p2pkh address use p2pkh.py or `p2pkh.cmd` or `p2pkh.sh` 
+
+![bitcoin p2pkh address generator privatekey](https://raw.githubusercontent.com/Pymmdrza/BTC_HD_Wallet_Checker/main/p2pkh.jpg)
+----
+
+Genereted p2wpkh address use p2wpkh.py or `p2wpkh.cmd` or `p2wpkh.sh` 
+
+![bitcoin p2wpkh address generator privatekey](https://raw.githubusercontent.com/Pymmdrza/BTC_HD_Wallet_Checker/main/p2wpkh.jpg)
+
+----
+
+Genereted p2sh address use p2sh.py or `p2sh.cmd` or `p2sh.sh` 
+
+![bitcoin p2sh address generator privatekey](https://raw.githubusercontent.com/Pymmdrza/BTC_HD_Wallet_Checker/main/p3sh.jpg)
+
+----
+
+Genereted p2wsh address use p2wsh.py or `p2wsh.cmd` or `p2wsh.sh` 
+
+![bitcoin p2wsh address generator privatekey](https://raw.githubusercontent.com/Pymmdrza/BTC_HD_Wallet_Checker/main/p2wsh.jpg)
+
+----
+```
+# ================================================
+# DONATE (BTC) : 16p9y6EstGYcnofGNvUJMEGKiAWhAr1uR8
+# Website : Mmdrza.Com
+# Email : X4@mmdrza.Com
+# Dev.to/Mmdrza
+# Github.com/Pymmdrza
+# ================================================
+```
